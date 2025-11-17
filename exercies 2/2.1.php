@@ -10,7 +10,7 @@
     
 function calcMoy(array $tab) {
     if (count($tab) === 0) {
-        return 0; // éviter division par 0
+        return 0; 
     }
 
     $somme = 0;
@@ -22,9 +22,10 @@ function calcMoy(array $tab) {
     return $somme / count($tab);
 }
 
-echo calcMoy([10, 20, 30]) . "<br>";  // 20
+echo calcMoy([10, 20, 30]) . "<br>";  
 
 ?>
 
 </body>
+
 </html>
